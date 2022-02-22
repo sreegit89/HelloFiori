@@ -1,0 +1,4 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+controllerName="tcs.fin.payroll.controller.App">
+    <SplitApp id="AppCon" />
+</mvc:View>

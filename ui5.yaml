@@ -1,0 +1,19 @@
+specVersion: '2.6'
+metadata:
+  name: sapui5_fiori
+type: application
+server:
+
+  customMiddleware:
+
+    - name: fiori-tools-proxy
+
+      afterMiddleware: compression
+
+      configuration:
+
+        backend:
+
+        - path: /sap
+
+          url: http://103.207.171.202:8021
